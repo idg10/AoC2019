@@ -12,7 +12,7 @@
             "program": "${workspaceFolder}/Aoc2019.go",
             //"program": "${fileDirname}",
             "env": {},
-            "args": ["1", "IdgInput"]
+            "args": ["2", "IdgInput"]
         }
     ]
 }

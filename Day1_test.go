@@ -34,3 +34,13 @@ func TestFuelForMassAndFuel(t *testing.T) {
 		}
 	}
 }
+
+func TestDay1(t *testing.T) {
+	totalFuelIfFuelFree, totalFuel, _ := day1("IdgInput")
+	if totalFuelIfFuelFree != 3329926 {
+		t.Errorf("Part 1: %v, want %v", totalFuelIfFuelFree, 3329926)
+	}
+	if totalFuel != 4992008 {
+		t.Errorf("Part 2: %v, want %v", totalFuel, 4992008)
+	}
+}

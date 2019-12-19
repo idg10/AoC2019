@@ -25,6 +25,8 @@ func main() {
 	switch day {
 	case 1:
 		showDay1(inputFolder)
+	case 2:
+		showDay2(inputFolder)
 	default:
 		fmt.Println("No solution for day ", day)
 	}
